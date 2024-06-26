@@ -8,11 +8,10 @@ const containJs = document.getElementsByClassName("container__js");
 // Second Section
 
 function random__generator(string_length) {
-  var characters =
-    'ABCDEfgehejfhjdhjdjhdjhfdhjf@"ljxkjjxkjxcjxj122slwkxkjxcjkxjcx0';
-  var input_string = "";
+  let characters = 'ABCDEfgehejfhjdhjdjhdjhfdhjf"ljxkjjxkjxcjxjslwkxkjxcjkxjcx';
+  let input_string = "";
 
-  for (var i, i = 0; i < string_length; i++) {
+  for (let i = 0; i < string_length; i++) {
     input_string += characters.charAt(
       Math.floor(Math.random() * characters.length)
     );
@@ -22,5 +21,5 @@ function random__generator(string_length) {
 }
 
 btn.addEventListener("click", () => {
-  random__generator(1000);
+  random__generator(input.value);
 });
