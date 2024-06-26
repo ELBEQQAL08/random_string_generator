@@ -9,4 +9,13 @@ btn.addEventListener("click", () => {
 
 // Second Section
 
-btn.addEventListener("click", () => {});
+function random(event) {
+  event.preventDefault();
+
+  const random = Math.random.toString(value);
+  input.random;
+}
+
+btn.addEventListener("click", () => {
+  random();
+});
