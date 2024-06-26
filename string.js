@@ -7,6 +7,7 @@ const containJs = document.getElementsByClassName("container__js");
 const btnClear = document.querySelector(".clear");
 const btnCopyAll = document.querySelector(".copy__all");
 let input_string = "";
+const VALUE = document.getElementById("value");
 
 // Second Section
 
@@ -30,10 +31,7 @@ btnClear.addEventListener("click", () => {
   input__string.value = "";
 });
 
-if (input__string.value === "") {
-  input__string.innerHTML = input_string;
-}
-
 btnCopyAll.addEventListener("click", () => {
+  navigator.clipboard.writeText(VALUE.value);
   btnCopyAll.innerHTML = "Copied!";
 });
