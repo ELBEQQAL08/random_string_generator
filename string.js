@@ -2,20 +2,23 @@
 
 const btn = document.querySelector("#btn__event");
 const input = document.querySelector(".input__number");
-
-btn.addEventListener("click", () => {
-  console.log(input.value);
-});
+const input_string = document.querySelector(".input__string");
 
 // Second Section
 
-function random(event) {
-  event.preventDefault();
+function random__generator(string_length) {
+  var characters =
+    'ABCDEfgehejfhjdhjdjhdjhfdhjf@"ljxkjjxkjxcjxj122slwkxkjxcjkxjcx0';
+  var input__string = "";
 
-  const random = Math.random.toString(value);
-  input.random;
+  for (var i, i = 0; i < string_length; i++) {
+    input__string += characters.charAt(
+      Math.floor(Math.random() * characters.length)
+    );
+  }
+  input_string.input;
 }
 
 btn.addEventListener("click", () => {
-  random();
+  random__generator(1000);
 });
