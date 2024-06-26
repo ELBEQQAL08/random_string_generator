@@ -16,6 +16,7 @@ function random__generator(string_length) {
       Math.floor(Math.random() * characters.length)
     );
   }
+  console.log(input__string);
 }
 
 btn.addEventListener("click", () => {
