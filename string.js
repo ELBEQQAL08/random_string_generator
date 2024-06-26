@@ -32,6 +32,6 @@ btnClear.addEventListener("click", () => {
 });
 
 btnCopyAll.addEventListener("click", () => {
-  navigator.clipboard.writeText(VALUE.value);
+  navigator.clipboard.writeText(input__string.value);
   btnCopyAll.innerHTML = "Copied!";
 });
