@@ -23,8 +23,6 @@ function random__generator(string_length) {
   input__string.innerHTML = input_string;
 }
 
-btn.addEventListener("click", () => {});
-
 btn.addEventListener("click", () => {
   random__generator(input.value);
 });
@@ -36,4 +34,30 @@ btnClear.addEventListener("click", () => {
 btnCopyAll.addEventListener("click", () => {
   navigator.clipboard.writeText(input__string.value);
   btnCopyAll.innerHTML = "Copied!";
+});
+
+// Tree Section
+
+const load = document.querySelector("#loading");
+
+// btn.addEventListener("click", () => {
+//   load.style.display = "flex";
+//   btn.style.display = "none";
+//   if (input__string.innerHTML != value) {
+//     load.classList.add("#loading__none");
+//     btn.classList.add(".btn__none");
+//   }
+//   if (input__string.value === value) {
+//     load.classList.replace("#loading");
+//     btn.classList.remove(".btn__none");
+//   }
+// });
+
+btn.addEventListener("click", () => {
+  load.style.display = "flex";
+  btn.style.display = "none";
+  if ((input__string.innerHTML = value)) {
+    setTimeout((load.style.display = "none"));
+    btn.style.display = "block";
+  }
 });
