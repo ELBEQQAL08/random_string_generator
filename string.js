@@ -40,10 +40,6 @@ btnCopyAll.addEventListener("click", () => {
 // Tree Section
 
 btn.addEventListener("click", () => {
-  setTimeout(2000((load.style.display = "flex")));
-  if ((input__string.innerHTML = input_string)) {
-    setTimeout(
-      2000((load.style.display = "flex"))((btn.style.display = "none"))
-    );
-  }
+  load.style.display = "flex";
+  btn.style.display = "none";
 });
