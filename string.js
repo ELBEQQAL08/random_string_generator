@@ -7,12 +7,12 @@ const containJs = document.getElementsByClassName("container__js");
 const btnClear = document.querySelector(".clear");
 const btnCopyAll = document.querySelector(".copy__all");
 let input_string = "";
-const VALUE = document.getElementById("value");
 
 // Second Section
 
 function random__generator(string_length) {
-  let characters = "ABCDEfgehejfhjdhjdjhdjhfdhjfljxkjjxkjxcjxjslwkxkjxcjkxjcx";
+  let characters =
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, cupiditate veniam iste non soluta accusamus quam, vitae numquam, neque quae deleniti quos hic ut aliquid recusandae rem blanditiis deserunt! Amet.";
 
   for (let i = 0; i < string_length; i++) {
     input_string += characters.charAt(
@@ -22,6 +22,8 @@ function random__generator(string_length) {
 
   input__string.innerHTML = input_string;
 }
+
+btn.addEventListener("click", () => {});
 
 btn.addEventListener("click", () => {
   random__generator(input.value);

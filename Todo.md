@@ -1,5 +1,8 @@
 - [x] Working Second Section And Fix Eroor Flex
 - [x] Working Button Section
 - [x] Working Event Generate Random Number
-- [ ]
+- [x] Fix Error Characters With Characters Correcte And Space Between
+- [ ] Fix Error Button Generate With Loading
+- [ ] Check PlayList NateCode
+- [ ] Check PlayList Coding Garden Using Code Wars Use Algorithm For Training Algoritihms
 - [ ] Push Project In Github
