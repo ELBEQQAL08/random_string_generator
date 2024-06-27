@@ -6,7 +6,6 @@ const input__string = document.querySelector(".input__string");
 const containJs = document.getElementsByClassName("container__js");
 const btnClear = document.querySelector(".clear");
 const btnCopyAll = document.querySelector(".copy__all");
-const load = document.querySelector("#loading");
 let input_string = "";
 
 // Second Section
@@ -39,7 +38,16 @@ btnCopyAll.addEventListener("click", () => {
 
 // Tree Section
 
+const load = document.querySelector("#loading");
+
 btn.addEventListener("click", () => {
-  load.style.display = "flex";
-  btn.style.display = "none";
+  if ((load.style.display = "flex")) {
+    random__generator(input.value);
+    btn.style.visibility = "hidden";
+  }
+
+  if ((load.style.display = "none")) {
+    btn.style.visibility = "visible";
+    random__generator(value != input);
+  }
 });
