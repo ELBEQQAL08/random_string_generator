@@ -6,6 +6,7 @@ const input__string = document.querySelector(".input__string");
 const containJs = document.getElementsByClassName("container__js");
 const btnClear = document.querySelector(".clear");
 const btnCopyAll = document.querySelector(".copy__all");
+const load = document.querySelector("#loading");
 let input_string = "";
 
 // Second Section
@@ -38,26 +39,11 @@ btnCopyAll.addEventListener("click", () => {
 
 // Tree Section
 
-const load = document.querySelector("#loading");
-
-// btn.addEventListener("click", () => {
-//   load.style.display = "flex";
-//   btn.style.display = "none";
-//   if (input__string.innerHTML != value) {
-//     load.classList.add("#loading__none");
-//     btn.classList.add(".btn__none");
-//   }
-//   if (input__string.value === value) {
-//     load.classList.replace("#loading");
-//     btn.classList.remove(".btn__none");
-//   }
-// });
-
 btn.addEventListener("click", () => {
-  load.style.display = "flex";
-  btn.style.display = "none";
-  if ((input__string.innerHTML = value)) {
-    setTimeout((load.style.display = "none"));
-    btn.style.display = "block";
+  setTimeout(2000((load.style.display = "flex")));
+  if ((input__string.innerHTML = input_string)) {
+    setTimeout(
+      2000((load.style.display = "flex"))((btn.style.display = "none"))
+    );
   }
 });
