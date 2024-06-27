@@ -43,9 +43,4 @@ const load = document.querySelector("#loading");
 btn.addEventListener("click", () => {
   load.style.display = "flex";
   btn.style.visibility = "hidden";
-
-  if (input__string.innerHTML === input) {
-    load.style.display = "none";
-    btn.style.visibility = "visible";
-  }
 });
