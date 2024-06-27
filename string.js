@@ -1,5 +1,7 @@
 // First Section
 
+// Declarated Elements In First Section
+
 const btn = document.querySelector("#btn__event");
 const input = document.querySelector(".input__number");
 const input__string = document.querySelector(".input__string");
@@ -38,9 +40,13 @@ btnCopyAll.addEventListener("click", () => {
 
 // Tree Section
 
+//  Declarated Elements In Tree Section
+
 const load = document.querySelector("#loading");
 
+// Event Loading In Page
+
 btn.addEventListener("click", () => {
-  load.style.display = "flex";
-  btn.style.visibility = "hidden";
+  load.style.display = "flex"; // Load is visible in page
+  btn.style.visibility = "hidden"; // Button is hidden in page
 });
