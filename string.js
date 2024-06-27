@@ -41,13 +41,11 @@ btnCopyAll.addEventListener("click", () => {
 const load = document.querySelector("#loading");
 
 btn.addEventListener("click", () => {
-  if ((load.style.display = "flex")) {
-    random__generator(input.value);
-    btn.style.visibility = "hidden";
-  }
+  load.style.display = "flex";
+  btn.style.visibility = "hidden";
 
-  if ((load.style.display = "none")) {
+  if (input__string.innerHTML === input) {
+    load.style.display = "none";
     btn.style.visibility = "visible";
-    random__generator(value != input);
   }
 });
