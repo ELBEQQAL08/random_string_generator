@@ -24,7 +24,14 @@ function random__generator(string_length) {
   }
 
   input__string.innerHTML = input_string;
-  change_state();
+
+  setTimeout(() => {
+    change_state();
+  }, 5000);
+}
+
+function change_state() {
+  is_loading = !is_loading;
 }
 
 btn.addEventListener("click", () => {
@@ -49,11 +56,17 @@ const load = document.querySelector("#loading");
 
 // Event Loading In Page
 
-// btn.addEventListener("click", () => {
-//   load.style.display = "flex"; // Load is visible in page
-//   btn.style.visibility = "hidden"; // Button is hidden in page
-// });
+btn.innerHTML = "genereted!";
 
-function change_state() {
-  is_loading = !is_loading;
+function change_btn_text() {
+  if (!is_loading) {
+    btn.innerHTML = "genereted!";
+  } else if (random__generator(input.value)) {
+    btn.innerHTML = "loading...";
+  }
 }
+
+btn.addEventListener("click", () => {
+  change_btn_text();
+  btn.innerHTML = "genereted!";
+});
