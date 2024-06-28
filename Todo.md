@@ -2,8 +2,8 @@
 - [x] Working Button Section
 - [x] Working Event Generate Random Number
 - [x] Fix Error Characters With Characters Correcte And Space Between
-- [ ] Fix Error Button Generate With Loading
-- [ ] Check PlayList NateCode
-- [ ] Check PlayList Coding Garden Using Code Wars Use Algorithm For Training Algoritihms
+- [x] Fix Error Button Generate With Loading
+- [x] Check PlayList NeetCode
+- [x] Check PlayList Coding Garden Using Code Wars Use Algorithm For Training Algoritihms
 - [ ] Check Name Convention In Youtube
-- [ ] Push Project In Github
+- [x] Push Project In Github
