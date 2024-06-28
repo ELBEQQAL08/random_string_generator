@@ -5,5 +5,6 @@
 - [x] Fix Error Button Generate With Loading
 - [x] Check PlayList NeetCode
 - [x] Check PlayList Coding Garden Using Code Wars Use Algorithm For Training Algoritihms
-- [ ] Check Name Convention In Youtube
-- [x] Push Project In Github
+- [x] Check Name Convention In Youtube
+- [ ] Add Svg In Button GENERETED Using Javascript
+- [ ] Push Project In Github

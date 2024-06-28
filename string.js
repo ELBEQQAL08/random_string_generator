@@ -8,9 +8,10 @@ const input__string = document.querySelector(".input__string");
 const containJs = document.getElementsByClassName("container__js");
 const btnClear = document.querySelector(".clear");
 const btnCopyAll = document.querySelector(".copy__all");
+const load = document.querySelector("#loading");
+const svg = document.querySelector(".svg_js");
 let input_string = "";
 let is_loading = false;
-console.log(is_loading);
 
 // Second Section
 
@@ -45,7 +46,7 @@ function change_btn_text() {
     btn.innerHTML = "loading...";
     setTimeout(() => {
       return (btn.innerHTML = "GENERETED!");
-    }, 2000);
+    }, 1000);
   }
 }
 
@@ -63,11 +64,3 @@ btnCopyAll.addEventListener("click", () => {
   navigator.clipboard.writeText(input__string.value);
   btnCopyAll.innerHTML = "Copied!";
 });
-
-// Tree Section
-
-//  Declarated Elements In Tree Section
-
-const load = document.querySelector("#loading");
-
-// Event Loading In Page

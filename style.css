@@ -48,6 +48,7 @@ body {
   background-color: #fff;
   text-align: center;
   padding-bottom: 1.5rem;
+  cursor: pointer;
 }
 
 .container__btn__3 {
@@ -55,13 +56,14 @@ body {
   padding-right: 21rem;
 }
 
-.container__box h4 {
+.container__btn__3 h4 {
   font-size: 1em;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f0f8ff;
+  width: 195px;
   border-radius: 5px;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
   text-align: center;
 }
 
@@ -133,7 +135,7 @@ body {
   border-radius: 10px;
 }
 
-.container__boutton button svg {
+.container__boutton #btn__event svg {
   width: 25px;
   height: 25px;
   vertical-align: middle;
