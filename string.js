@@ -10,6 +10,7 @@ const btnClear = document.querySelector(".clear");
 const btnCopyAll = document.querySelector(".copy__all");
 let input_string = "";
 let is_loading = false;
+console.log(is_loading);
 
 // Second Section
 
@@ -34,8 +35,23 @@ function change_state() {
   is_loading = !is_loading;
 }
 
+btn.innerHTML = "GENERETED!";
+
+function change_btn_text() {
+  if (!is_loading) {
+    btn.innerHTML = "GENERETED!";
+    is_loading = false;
+  } else {
+    btn.innerHTML = "loading...";
+    setTimeout(() => {
+      return (btn.innerHTML = "GENERETED!");
+    }, 2000);
+  }
+}
+
 btn.addEventListener("click", () => {
   change_state();
+  change_btn_text();
   random__generator(input.value);
 });
 
@@ -55,17 +71,3 @@ btnCopyAll.addEventListener("click", () => {
 const load = document.querySelector("#loading");
 
 // Event Loading In Page
-
-btn.innerHTML = "genereted!";
-
-function change_btn_text() {
-  if (!is_loading) {
-    btn.innerHTML = "genereted!";
-  } else {
-    btn.innerHTML = "loading...";
-  }
-}
-
-btn.addEventListener("click", () => {
-  change_btn_text();
-});
