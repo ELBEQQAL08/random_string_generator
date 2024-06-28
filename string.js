@@ -68,5 +68,4 @@ function change_btn_text() {
 
 btn.addEventListener("click", () => {
   change_btn_text();
-  btn.innerHTML = "genereted!";
 });
