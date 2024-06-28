@@ -61,7 +61,7 @@ btn.innerHTML = "genereted!";
 function change_btn_text() {
   if (!is_loading) {
     btn.innerHTML = "genereted!";
-  } else if (random__generator(input.value)) {
+  } else {
     btn.innerHTML = "loading...";
   }
 }
