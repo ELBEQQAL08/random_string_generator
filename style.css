@@ -142,7 +142,8 @@ body {
   margin-bottom: 0.4rem;
   margin-right: 0;
   margin-left: 1.5rem;
-  fill: white;
+  fill: currentColor;
+  color: white;
 }
 
 #loading {

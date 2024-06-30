@@ -39,7 +39,6 @@ function change_state() {
 
 btn.innerHTML = "GENERETED!";
 const img = document.createElement("img");
-const containerImg = document.querySelector(".container_img");
 img.src = "settings.png";
 btn.appendChild(img);
 
@@ -48,8 +47,8 @@ btn.appendChild(img);
 function change_btn_text() {
   if (!is_loading) {
     img.src = "settings.png";
-    btn.innerHTML = "GENERETED!";
     btn.appendChild(img);
+    btn.innerHTML = "GENERETED!";
     is_loading = false;
   } else {
     btn.innerHTML = "loading...";
