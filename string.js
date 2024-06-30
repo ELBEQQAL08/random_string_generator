@@ -1,6 +1,6 @@
 // First Section
 
-// Declarated Elements In First Section
+// Declarated Elements In First Section & Second Section & Tree Section
 
 const btn = document.querySelector("#btn__event");
 const input = document.querySelector(".input__number");
@@ -9,7 +9,6 @@ const containJs = document.getElementsByClassName("container__js");
 const btnClear = document.querySelector(".clear");
 const btnCopyAll = document.querySelector(".copy__all");
 const load = document.querySelector("#loading");
-const svg = document.querySelector(".svg_js");
 let input_string = "";
 let is_loading = false;
 
@@ -18,6 +17,8 @@ let is_loading = false;
 function random__generator(string_length) {
   let characters =
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, cupiditate veniam iste non soluta accusamus quam, vitae numquam, neque quae deleniti quos hic ut aliquid recusandae rem blanditiis deserunt! Amet.";
+
+  // Declarated Characters
 
   for (let i = 0; i < string_length; i++) {
     input_string += characters.charAt(
@@ -37,18 +38,32 @@ function change_state() {
 }
 
 btn.innerHTML = "GENERETED!";
+const img = document.createElement("img");
+const containerImg = document.querySelector(".container_img");
+img.src = "settings.png";
+btn.appendChild(img);
+
+// Practice Event Loading
 
 function change_btn_text() {
   if (!is_loading) {
+    img.src = "settings.png";
     btn.innerHTML = "GENERETED!";
+    btn.appendChild(img);
     is_loading = false;
   } else {
     btn.innerHTML = "loading...";
     setTimeout(() => {
-      return (btn.innerHTML = "GENERETED!");
+      return (
+        (btn.innerHTML = "GENERETED!"),
+        (img.src = "settings.png"),
+        btn.appendChild(img)
+      );
     }, 1000);
   }
 }
+
+// Add Icon In Button
 
 btn.addEventListener("click", () => {
   change_state();

@@ -126,23 +126,23 @@ body {
   background-color: #50c750;
   color: white;
   text-align: center;
-  cursor: pointer;
   padding: 14px 18px;
   outline: none;
   border: none;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   border-radius: 10px;
+  cursor: pointer;
 }
 
-.container__boutton #btn__event svg {
+.container__boutton #btn__event img {
   width: 25px;
   height: 25px;
   vertical-align: middle;
   margin-bottom: 0.4rem;
-  margin-right: 1.5em;
-  fill: currentColor;
-  color: white;
+  margin-right: 0;
+  margin-left: 1.5rem;
+  fill: white;
 }
 
 #loading {
