@@ -36,14 +36,16 @@ function change_state() {
 
 // Practice Event Loading
 
+span_js.innerHTML = "GENERETED!";
+
 function change_btn_text() {
   if (!is_loading) {
-    btn.innerHTML = "GENERETED!";
+    span_js.innerHTML = "GENERETED!";
   } else {
-    btn.innerHTML = "loading...";
+    span_js.innerHTML = "loading...";
     setTimeout(() => {
-      return (btn.innerHTML = "GENERETED!");
-    }, 100);
+      return (span_js.innerHTML = "GENERETED!");
+    }, 1000);
   }
 }
 
