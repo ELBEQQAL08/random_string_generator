@@ -1,12 +1,18 @@
-- [x] Working Second Section And Fix Eroor Flex
-- [x] Working Button Section
-- [x] Working Event Generate Random Number
-- [x] Fix Error Characters With Characters Correcte And Space Between
-- [x] Fix Error Button Generate With Loading
-- [x] Check PlayList NeetCode
-- [x] Check PlayList Coding Garden Using Code Wars Use Algorithm For Training Algoritihms
-- [x] Check Name Convention In Youtube
-- [x] Add Img In Button GENERETED! Using Javascript
-- [x] Fix Error Img In Button GENERETED!
-- [x] Push Project In Github
-- [ ] Check Discord forget Language English & French
+- 1 [x] Working Second Section And Fix Eroor Flex
+- 2 [x] Working Button Section
+- 3 [x] Working Event Generate Random Number
+- 4 [x] Fix Error Characters With Characters Correcte And Space Between
+- 5 [x] Fix Error Button Generate With Loading
+- 6 [x] Check PlayList NeetCode
+- 7 [x] Check PlayList Coding Garden Using Code Wars Use Algorithm For Training Algoritihms
+- 8 [x] Check Name Convention In Youtube
+- 9 [x] Add Img In Button GENERETED! Using Javascript
+- 10 [x] Fix Error Img In Button GENERETED!
+- 11 [x] Push Project In Github
+- 12 [ ] Working Footer In Project With Copyright C In HTML Date In Javascript And By KAMAL EL BEQQAL In HTML
+- 13 [ ] Push Project In GITHUB
+- 14 [ ] Stude SEO And Adcense
+- 15 [ ] Solve Problem In Code Wors With algorithm Using Javascript
+- 16 [ ] Watch All Podacasts Kass Atay Podcast And GeeksBlaBla
+- 17 [ ] Create Account In Fiveer And Email Personnel
+- 18 [ ] Check Discord forget Language English & French
