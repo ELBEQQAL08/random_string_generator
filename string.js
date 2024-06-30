@@ -9,6 +9,7 @@ const containJs = document.getElementsByClassName("container__js");
 const btnClear = document.querySelector(".clear");
 const btnCopyAll = document.querySelector(".copy__all");
 const load = document.querySelector("#loading");
+let span_js = document.querySelector(".span-title");
 let input_string = "";
 let is_loading = false;
 
@@ -27,10 +28,6 @@ function random__generator(string_length) {
   }
 
   input__string.innerHTML = input_string;
-
-  setTimeout(() => {
-    change_state();
-  }, 5000);
 }
 
 function change_state() {
@@ -39,8 +36,6 @@ function change_state() {
 
 // Practice Event Loading
 
-const Img = document.createElement("img");
-
 function change_btn_text() {
   if (!is_loading) {
     btn.innerHTML = "GENERETED!";
@@ -48,7 +43,7 @@ function change_btn_text() {
     btn.innerHTML = "loading...";
     setTimeout(() => {
       return (btn.innerHTML = "GENERETED!");
-    }, 1000);
+    }, 100);
   }
 }
 
