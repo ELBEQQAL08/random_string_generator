@@ -119,6 +119,13 @@ body {
   align-items: center;
 }
 
+.container__boutton h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
 .container__boutton button {
   font-size: 1.5em;
   font-weight: 600;
@@ -141,7 +148,6 @@ body {
   vertical-align: middle;
   margin-bottom: 0.4rem;
   margin-right: 0;
-  margin-left: 1.5rem;
   fill: currentColor;
   color: white;
 }

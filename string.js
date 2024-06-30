@@ -37,27 +37,15 @@ function change_state() {
   is_loading = !is_loading;
 }
 
-btn.innerHTML = "GENERETED!";
-const img = document.createElement("img");
-img.src = "settings.png";
-btn.appendChild(img);
-
 // Practice Event Loading
 
 function change_btn_text() {
   if (!is_loading) {
-    img.src = "settings.png";
-    btn.appendChild(img);
     btn.innerHTML = "GENERETED!";
-    is_loading = false;
   } else {
     btn.innerHTML = "loading...";
     setTimeout(() => {
-      return (
-        (btn.innerHTML = "GENERETED!"),
-        (img.src = "settings.png"),
-        btn.appendChild(img)
-      );
+      return (btn.innerHTML = "GENERETED!");
     }, 1000);
   }
 }
