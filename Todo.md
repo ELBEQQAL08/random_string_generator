@@ -7,6 +7,6 @@
 - [x] Check PlayList Coding Garden Using Code Wars Use Algorithm For Training Algoritihms
 - [x] Check Name Convention In Youtube
 - [x] Add Img In Button GENERETED! Using Javascript
-- [ ] Fix Error Img In Button GENERETED!
+- [x] Fix Error Img In Button GENERETED!
 - [ ] Check Discord forget Language English & French
 - [ ] Push Project In Github

@@ -39,6 +39,8 @@ function change_state() {
 
 // Practice Event Loading
 
+const Img = document.createElement("img");
+
 function change_btn_text() {
   if (!is_loading) {
     btn.innerHTML = "GENERETED!";
