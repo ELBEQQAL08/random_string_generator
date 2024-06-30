@@ -45,7 +45,7 @@ function change_btn_text() {
     span_js.innerHTML = "loading...";
     setTimeout(() => {
       return (span_js.innerHTML = "GENERETED!");
-    }, 1000);
+    }, 100);
   }
 }
 
