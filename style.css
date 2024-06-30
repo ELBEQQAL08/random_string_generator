@@ -94,7 +94,6 @@ body {
   color: grey;
   background-color: #eee;
   border: none;
-  cursor: pointer;
 }
 
 .container__box .copy__all {
@@ -106,7 +105,6 @@ body {
   color: grey;
   background-color: #eee;
   border: none;
-  cursor: pointer;
 }
 
 /* End Second Section */
@@ -139,7 +137,6 @@ body {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   border-radius: 10px;
-  cursor: pointer;
 }
 
 .container__boutton #btn__event img {

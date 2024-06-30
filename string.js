@@ -50,8 +50,6 @@ function change_btn_text() {
   }
 }
 
-// Add Icon In Button
-
 btn.addEventListener("click", () => {
   change_state();
   change_btn_text();
