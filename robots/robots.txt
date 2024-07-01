@@ -1,0 +1,3 @@
+user-argent: *
+Allow: /
+Sitemap:https://random-string-generator-mocha.vercel.app/
