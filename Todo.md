@@ -10,10 +10,10 @@
 - 10 [x] Fix Error Img In Button GENERETED!
 - 11 [x] Working Footer In Project With Copyright C In HTML Date In Javascript And By KAMAL EL BEQQAL In HTML
 - 12 [x] Push Project In GITHUB
-- 13 [X] Stude SEO And Adcense
-- 14 [X] Create Account In Fiveer And Email Personnel
-- 15 [X] Watch All Podacasts Kass Atay Podcast And GeeksBlaBla
-- 16 [X] Solve Problem In Code Wors With algorithm Using Javascript
+- 13 [x] Stude SEO And Adcense
+- 14 [x] Create Account In Fiveer And Email Personnel
+- 15 [x] Watch All Podacasts Kass Atay Podcast And GeeksBlaBla
+- 16 [x] Solve Problem In Code Wors With algorithm Using Javascript
 - [17] WORKING SPACE IN TOP AND Merge Code HTML Using Validation HTML And Working SEO In Project
 - [18] Push Project In Github
 - [19] Stude Slice and .....
