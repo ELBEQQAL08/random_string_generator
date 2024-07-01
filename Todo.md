@@ -11,7 +11,7 @@
 - 11 [x] Working Footer In Project With Copyright C In HTML Date In Javascript And By KAMAL EL BEQQAL In HTML
 - 12 [x] Push Project In GITHUB
 - 13 [X] Stude SEO And Adcense
-- 14 [ ] Solve Problem In Code Wors With algorithm Using Javascript
-- [15] Watch All Podacasts Kass Atay Podcast And GeeksBlaBla
-- [16] Create Account In Fiveer And Email Personnel
-- [17] Check Discord forget Language English & French
+- 14 [X] Create Account In Fiveer And Email Personnel
+- 15 [ ] Solve Problem In Code Wors With algorithm Using Javascript
+- 16 [ ] Check Discord forget Language English & French
+- 17 [ ] Watch All Podacasts Kass Atay Podcast And GeeksBlaBla
