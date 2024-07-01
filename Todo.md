@@ -8,11 +8,10 @@
 - 8 [x] Check Name Convention In Youtube
 - 9 [x] Add Img In Button GENERETED! Using Javascript
 - 10 [x] Fix Error Img In Button GENERETED!
-- 11 [x] Push Project In Github
-- 12 [ ] Working Footer In Project With Copyright C In HTML Date In Javascript And By KAMAL EL BEQQAL In HTML
-- 13 [ ] Push Project In GITHUB
-- 14 [ ] Stude SEO And Adcense
-- 15 [ ] Solve Problem In Code Wors With algorithm Using Javascript
-- 16 [ ] Watch All Podacasts Kass Atay Podcast And GeeksBlaBla
-- 17 [ ] Create Account In Fiveer And Email Personnel
-- 18 [ ] Check Discord forget Language English & French
+- 11 [x] Working Footer In Project With Copyright C In HTML Date In Javascript And By KAMAL EL BEQQAL In HTML
+- 12 [x] Push Project In GITHUB
+- [15] Stude SEO And Adcense
+- [16] Solve Problem In Code Wors With algorithm Using Javascript
+- [17] Watch All Podacasts Kass Atay Podcast And GeeksBlaBla
+- [18] Create Account In Fiveer And Email Personnel
+- [19] Check Discord forget Language English & French

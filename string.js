@@ -9,6 +9,7 @@ const containJs = document.getElementsByClassName("container__js");
 const btnClear = document.querySelector(".clear");
 const btnCopyAll = document.querySelector(".copy__all");
 const load = document.querySelector("#loading");
+const span_date = document.querySelector(".date_function");
 let span_js = document.querySelector(".span-title");
 let input_string = "";
 let is_loading = false;
@@ -63,3 +64,9 @@ btnCopyAll.addEventListener("click", () => {
   navigator.clipboard.writeText(input__string.value);
   btnCopyAll.innerHTML = "Copied!";
 });
+
+// Footer Section
+
+const date = new Date();
+span_date.date;
+alert(date);
