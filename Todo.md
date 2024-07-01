@@ -12,6 +12,9 @@
 - 12 [x] Push Project In GITHUB
 - 13 [X] Stude SEO And Adcense
 - 14 [X] Create Account In Fiveer And Email Personnel
-- 16 [ ] Watch All Podacasts Kass Atay Podcast And GeeksBlaBla
-- [17] Check Discord forget Language English & French
-- [18] Solve Problem In Code Wors With algorithm Using Javascript
+- 15 [X] Watch All Podacasts Kass Atay Podcast And GeeksBlaBla
+- 16 [X] Solve Problem In Code Wors With algorithm Using Javascript
+- [17] WORKING SPACE IN TOP AND Merge Code HTML Using Validation HTML And Working SEO In Project
+- [18] Push Project In Github
+- [19] Stude Slice and .....
+- [20] Check Discord Using Languages English And French And Programming
