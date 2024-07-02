@@ -233,3 +233,11 @@ body {
 }
 
 /* End Footer Section */
+
+/* Start Responsive Project */
+
+@media screen(max-width: 300px and min-width: 700px) {
+  /* First Section */
+}
+
+/* End Responsive Project */

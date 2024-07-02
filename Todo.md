@@ -1,20 +1,26 @@
-- 1 [x] Working Second Section And Fix Eroor Flex
-- 2 [x] Working Button Section
-- 3 [x] Working Event Generate Random Number
-- 4 [x] Fix Error Characters With Characters Correcte And Space Between
-- 5 [x] Fix Error Button Generate With Loading
-- 6 [x] Check PlayList NeetCode
-- 7 [x] Check PlayList Coding Garden Using Code Wars Use Algorithm For Training Algoritihms
-- 8 [x] Check Name Convention In Youtube
-- 9 [x] Add Img In Button GENERETED! Using Javascript
-- 10 [x] Fix Error Img In Button GENERETED!
-- 11 [x] Working Footer In Project With Copyright C In HTML Date In Javascript And By KAMAL EL BEQQAL In HTML
-- 12 [x] Push Project In GITHUB
-- 13 [x] Stude SEO And Adcense
-- 14 [x] Create Account In Fiveer And Email Personnel
-- 15 [x] Watch All Podacasts Kass Atay Podcast And GeeksBlaBla
-- 16 [x] Solve Problem In Code Wors With algorithm Using Javascript
-- 17 [x] WORKING SPACE IN TOP AND Merge Code HTML Using Validation HTML And Working SEO In Project
-- 18 [x] Push Project In Github
+- [x] Working Second Section And Fix Eroor Flex
+- [x] Working Button Section
+- [x] Working Event Generate Random Number
+- [x] Fix Error Characters With Characters Correcte And Space Between
+- [x] Fix Error Button Generate With Loading
+- [x] Check PlayList NeetCode
+- [x] Check PlayList Coding Garden Using Code Wars Use Algorithm For Training Algoritihms
+- [x] Check Name Convention In Youtube
+- [x] Add Img In Button GENERETED! Using Javascript
+- [x] Fix Error Img In Button GENERETED!
+- [x] Working Footer In Project With Copyright C In HTML Date In Javascript And By KAMAL EL BEQQAL In HTML
+- [x] Push Project In GITHUB
+- [x] Stude SEO And Adcense
+- [x] Create Account In Fiveer And Email Personnel
+- [x] Watch All Podacasts Kass Atay Podcast And GeeksBlaBla
+- [x] Solve Problem In Code Wors With algorithm Using Javascript
+- [x] WORKING SPACE IN TOP AND Merge Code HTML Using Validation HTML And Working SEO In Project
+- [x] Push Project In Github
 - [19] Stude Slice and .....
-- [20] Check Discord Using Languages English And French And Programming
+- [20] Working Project In Mobile And Meduim
+- [21] Push Project In GITHUB
+- [22] Watch Playlist NeetCode 
+- [23] Watch Playlist English
+- [24] Watch Playlist CodeWars In Channel CodingGarden
+- [25] Check Discord Using Languages English And French And Programming
+- [26] Watch Podcast In Channel KASS ATAY PODCAST
