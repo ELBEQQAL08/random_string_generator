@@ -19,8 +19,8 @@
 - [x] Stude Slice and .....
 - [x] Working Project In Mobile And Meduim
 - [x] Push Project In GITHUB
-- [22] Watch Playlist NeetCode 
-- [23] Watch Playlist English
+- [x] Watch Playlist NeetCode 
+- [x] Watch Playlist English
 - [24] Watch Playlist CodeWars In Channel CodingGarden
 - [25] Check Discord Using Languages English And French And Programming
 - [26] Watch Podcast In Channel KASS ATAY PODCAST
