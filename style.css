@@ -74,7 +74,7 @@ body {
   text-align: center;
 }
 
-.container__box input textarea {
+.container__box input textarea{
   overflow: scroll;
   cursor: pointer;
 }
@@ -236,8 +236,57 @@ body {
 
 /* Start Responsive Project */
 
-@media screen(max-width: 300px and min-width: 700px) {
+@media screen and (min-width: 300px) and (max-width: 700px) {
   /* First Section */
+
+  .container__btn {
+    display: flex;
+    padding-top: 0;
+  }
+  
+  /* Second Section */
+
+  .container__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    cursor: pointer;
+  }
+
+  .container__btn__3 {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+  }
+
+  .container__btn__3 h4 {
+    text-align: center;
+    width: 199px;
+    padding-top: 0.5rem;
+  }
+
+  .container__btn__2 {
+    padding-top: 2.5rem;
+  }
+
+  .container__box .container__js textarea {
+    width: 313px !important;
+    height: 339px !important;
+    padding: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.20);
+  }
+
 }
 
 /* End Responsive Project */
+
+/* By KAMAL EL BEQQAL */

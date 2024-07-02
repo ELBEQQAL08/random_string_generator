@@ -69,3 +69,5 @@ btnCopyAll.addEventListener("click", () => {
 
 const date = new Date();
 span_date.date;
+
+// By KAMAL EL BEQQAL

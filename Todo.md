@@ -16,9 +16,9 @@
 - [x] Solve Problem In Code Wors With algorithm Using Javascript
 - [x] WORKING SPACE IN TOP AND Merge Code HTML Using Validation HTML And Working SEO In Project
 - [x] Push Project In Github
-- [19] Stude Slice and .....
-- [20] Working Project In Mobile And Meduim
-- [21] Push Project In GITHUB
+- [x] Stude Slice and .....
+- [x] Working Project In Mobile And Meduim
+- [x] Push Project In GITHUB
 - [22] Watch Playlist NeetCode 
 - [23] Watch Playlist English
 - [24] Watch Playlist CodeWars In Channel CodingGarden
