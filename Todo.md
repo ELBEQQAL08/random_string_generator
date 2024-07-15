@@ -22,7 +22,10 @@
 - [x] Watch Playlist NeetCode 
 - [x] Watch Playlist English
 - [x] Watch Playlist CodeWars In Channel CodingGarden
-- [24] Solve Problem In Code Wars
+- [x] Solve Problem In Code Wars
 - [25] Working Project Portofolio For Yourself
-- [26] Check Discord Using Languages English And French And Programming
-- [27] Watch Podcast In Channel KASS ATAY PODCAST
+- [26] Check PlayList NeetCode
+- [27] Check PlayList English
+- [28] Check PlayList CodeWarse In Channel Yourself
+- [29] Check Discord Using Languages English And French And Programming
+- [30] Watch Podcast In Channel KASS ATAY PODCAST
